@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile</title>
+    <link rel="stylesheet" href="profile_styles.css">
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <h3 class="logo">MyProfile</h3>
+        <ul>
+            <li><button onclick="location.href='#hero'">Home</button></li>
+            <li><button onclick="location.href='#about'">About</button></li>
+            <li><button onclick="location.href='#skills'">skills</button></li>
+            <li><button onclick="location.href='#projects'">Projects</button></li>
+            <li><button onclick="location.href='#education'">Education</button></li>
+            <li><button onclick="location.href='#contact'">Contact</button></li>
+        </ul>
+    </nav>
+
+    <!-- HERO MODULE -->
+    <header id="hero" class="hero">
+        <img src="20251221_OHR.SwedenSolstice_EN-IN7550918752_UHD_bing.jpg" alt="Profile Photo">
+        <h1>Shridhar N Gangadharamth</h1>
+        <h2>MCA Student | Aspiring Web Developer</h2>
+        <p>
+            Passionate about building  web applications.
+            Focused on improving frontend and backend development skills.
+        </p>
+    </header>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <div class="about-container">
+        <h2>About Me</h2>
+        <p class="about-p">
+            My name is Shridhar Ng, and I am a dedicated MCA student with a strong passion for web development. I am currently focused on learning full-stack web development, with an emphasis on the MERN stack (MongoDB, Express.js, React, Node.js). I am committed to improving my skills in JavaScript and responsive design to create engaging and user-friendly web applications. I am actively seeking internship opportunities in web development to gain practical experience and contribute to real-world projects.
+           
+            I am improving my skills in JavaScript and responsive design.<br>
+            I am looking for internship opportunities in web development.<br>
+            
+
+        </p>
+    </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+        <h2>Skills</h2>
+
+        <div class="skills-container">
+            <div class="card">
+                <h3>Technical Skills</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>Tools</h3>
+                <ul>
+                    <li>VS Code</li>
+                    <li>Git & GitHub</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="card">
+            <h3>Course Outcomes Analysis For MCA</h3>
+            <div class="card-p">
+            <p>Web application to analyze course outcomes for MCA students.</p><br>
+            <p><strong>Tech:</strong>Frontend: HTML, CSS, JavaScript.<br>Backend Language:Python (Flask).<br>Database: MySQL.</p><br>
+            <h3>Personal Portfolio</h3>
+            <p>Responsive profile website with smooth scrolling layout.</p><br>
+            <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+            </div>
+            <a href="https://github.com/shridhar6363" target="_blank">
+                View on GitHub
+            </a>
+        </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education">
+        <h2>Education</h2>
+        <div class="card">
+             <p><strong>MCA</strong></p>
+            <p>Basaveshwar Engineering College Bagalkot.</p>
+            <p>2025 – 2026</p><br>
+            <p><strong>BSc(Computer Science)</strong></p>
+            <p>SVM Arts, Science & Commerce College Ilkal.</p>
+            <p>2022 – 2024</p>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <h2>Contact</h2>
+
+        <p>Email: <a href="mailto:shridhargangadharmath">shridhargangadharmath@gmail.com</a></p>
+        <p>Phone: +91 6363938594</p>
+
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name">
+            <input type="email" id="email" placeholder="Your Email">
+            <textarea id="message" placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+
+        <p id="error"></p>
+    </section>
+
+    <script src="profile.js"></script>
+</body>
+</html>
