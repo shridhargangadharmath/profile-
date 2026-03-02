@@ -7,7 +7,7 @@
 }
 
 body {
-    background: linear-gradient(135deg, #d580b1 0%, #86e7c0 100%);
+    background: linear-gradient(135deg, #a0206b 0%, #3f8267 100%);
     scroll-behavior: smooth;
     min-height: 100vh;
 }
