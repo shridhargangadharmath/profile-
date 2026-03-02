@@ -113,7 +113,7 @@ nav a.active {
 }
 
 .hero h1 {
-    font-size: 100px;
+    font-size: 45px;
     margin-bottom: 15px;
     animation: slideInDown 0.8s ease;
     z-index: 1;
