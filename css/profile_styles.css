@@ -203,7 +203,7 @@ section h2::after {
 .card:hover {
     transform: translateY(-15px);
     box-shadow: 0 20px 40px rgba(102, 126, 234, 0.3);
-    border-color: #f05287;
+    border-color: #f50c5a;
 }
 .card-p {
     text-align: left;
