@@ -75,7 +75,7 @@ nav a.active {
 /* ===== HERO SECTION ===== */
 .hero {
     height: 100vh;
-    background: linear-gradient(135deg, #f2a8b2 0%, #b6c85f 100%);
+    background: linear-gradient(360deg, #ddf2a8 0%, #b6c85f 100%);
     color: white;
     display: flex;
     flex-direction: column;
