@@ -76,7 +76,7 @@ nav a.active {
 .hero {
     height: 100vh;
     background: linear-gradient(360deg, #ed9396 0%, #b4d198 100%);
-    color: rgb(20, 45, 86);
+    color: rgb(20, 66, 86);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -164,7 +164,7 @@ section h2::after {
     border-radius: 2px;
 }
 #about {
-    background: linear-gradient(135deg, #e59a9a 0%, #c8d68b 100%);
+    background: linear-gradient(135deg, #584343 0%, #465256 100%);
     color: white;
     border: 1px solid rgba(153, 240, 202, 0.9);
 
