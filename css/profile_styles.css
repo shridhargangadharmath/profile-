@@ -238,7 +238,7 @@ section h2::after {
 }
 
 .card li:hover {
-    color: #4ce0e5;
+    color: #e54c66;
     transform: translateX(5px);
 }
 
